@@ -4,10 +4,10 @@ function home(){
     return (
         <div>
             <h1>Home</h1>
-            <Link  href="/sobre">
+            <Link  href="/Sobre">
                 <a>ir para a pagina sobre</a>
             </Link>
-            <Link href="/tempo">
+            <Link href="/Tempo">
                 <a>ir para a pagina do tempo</a>
             </Link>
         </div>
