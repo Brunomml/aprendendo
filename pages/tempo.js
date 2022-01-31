@@ -5,15 +5,18 @@ function Tempo(props) {
     return (
         <div>
             <div>{dynamicDateString}(dinamico)</div>
-            <div>{props.frase}</div>
+            <div>{props.staticDateString}</div>
         </div>
     )
 }
 
 export function frase() {
+    const staticDate = new Date()
+    const staticDateString = staticDate.toGMTString()
+
     return {
-        props:{
-            frase:"eae"
+        props: {
+            staticDateString
         }
     }
 }
