@@ -1,12 +1,13 @@
 import Link from "next/link"
 
-function home(){
+function Home(){
     return (
         <div>
             <h1>Home</h1>
-            <Link  href="/Sobre">
+            <Link href="/Sobre">
                 <a>ir para a pagina sobre</a>
             </Link>
+            <br />
             <Link href="/Tempo">
                 <a>ir para a pagina do tempo</a>
             </Link>
@@ -14,4 +15,4 @@ function home(){
     )
 }
 
-export default home
+export default Home
