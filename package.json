@@ -1,0 +1,24 @@
+{
+  "name": "aprendendo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brunomml/aprendendo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brunomml/aprendendo/issues"
+  },
+  "homepage": "https://github.com/Brunomml/aprendendo#readme",
+  "dependencies": {
+    "next": "^12.0.9",
+    "react": "^17.0.2"
+  }
+}
