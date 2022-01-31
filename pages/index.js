@@ -1,4 +1,8 @@
 function Home(props){
+    addEventListener('click', () => {
+        props.num++
+    })
+
     return (
         <div>
             <div>{props.num}</div>
@@ -7,11 +11,12 @@ function Home(props){
 }
 
 export function getStaticProps() {
-    const num = 0
+    let num = 0
     return {
         props: {
             num
-        }
+        },
+        revalidate: 1
     }
 }
 
