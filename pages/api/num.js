@@ -1,6 +1,7 @@
 function num(request, response) {
-    console.log(request);
-    console.log(response);
+    response.json({
+        num:0
+    })
 }
 
 export default num
