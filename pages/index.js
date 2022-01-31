@@ -1,11 +1,8 @@
 function Home(props){
-    addEventListener('click', () => {
-        props.num++
-    })
-
     return (
         <div>
             <div>{props.num}</div>
+            <button onClick={props.num++}>adicionar</button>
         </div>
     )
 }
