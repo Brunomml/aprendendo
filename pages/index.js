@@ -6,7 +6,7 @@ function Home(props){
     )
 }
 
-function getStaticProps() {
+export function getStaticProps() {
     const num = 0
     return {
         props: {
